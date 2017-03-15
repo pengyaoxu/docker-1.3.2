@@ -101,7 +101,6 @@ LDFLAGS='
 	-X '$DOCKER_PKG'/dockerversion.VERSION "'$VERSION'"
 '
 LDFLAGS_STATIC='-linkmode external'
-EXTLDFLAGS_STATIC='-static'
 # ORIG_BUILDFLAGS is necessary for the cross target which cannot always build
 # with options like -race.
 ORIG_BUILDFLAGS=( -a -tags "netgo static_build $DOCKER_BUILDTAGS" )
