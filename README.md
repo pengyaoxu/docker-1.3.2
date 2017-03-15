@@ -13,11 +13,11 @@ image共享
 ==================================
 
 在host1启动docker
-···
+···Bash
 [root@host1 ~]#docker -d -D -s rbd
 ···
 在host1拉取镜像
-···
+···Bash
 [root@host1 ~]# docker pull centos:latest
 Pulling repository centos
 7322fbe74aa5: Download complete 
