@@ -19,15 +19,25 @@ image共享
 在host1拉取镜像
 
 [root@host1 ~]# docker pull centos:latest
+
 Pulling repository centos
+
 7322fbe74aa5: Download complete 
+
 f1b10cd84249: Download complete 
+
 c852f6d61e65: Download complete 
+
 Status: Downloaded newer image for centos:latest
+
 [root@host1 ~]# docker images
+
 REPOSITORY          TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
+
 centos              centos7             7322fbe74aa5        5 weeks ago         178.2 MB
+
 centos              latest              7322fbe74aa5        5 weeks ago         178.2 MB
+
 centos              7
 
 查看所有rbd image
