@@ -4,3 +4,7 @@
 ==================================
 
 Ceph的RBD支持快照，我们可以通过RBD，让Docker的rootfs也跑在网络存储之上，从而实现OS、数据全部跑在网络上，从而打造无本地磁盘的容器服务。
+
+逻辑示意图：
+
+![struct](http://hustcat.github.io/assets/2015-07-24-docker-on-ceph.jpg)
